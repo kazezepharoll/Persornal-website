@@ -5,6 +5,7 @@ body{
     font-weight: 600;
     color: #5e6d66;
     background-color: #d8f0f0;
+    width: 100%;
 }
 h1{
     margin: 50px auto 0;
@@ -60,8 +61,8 @@ hr{
 }
  .bottom-cloud{
     position: absolute;
-   left: 250px;
-    bottom: 300px;
+   left: 300px;
+    bottom: 420px;
 }
 .top-cloud{
     position:absolute;
@@ -147,3 +148,7 @@ hr{
     margin-top: 0.8rem;
     padding: 20px 0;
  }
+.mountain{
+    margin: auto;
+    width: 70%;
+}
