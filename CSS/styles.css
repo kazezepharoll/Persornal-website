@@ -4,9 +4,8 @@ body{
     font-family: 'Merriweather', serif;
     font-weight: 600;
     color: #5e6d66;
-    background-color: #d8f0f0;
+    background-color: #ffffff;
     width: 100%;
-    padding: 10px;
 }
 h1{
     margin: 50px auto 0;
@@ -57,21 +56,21 @@ hr{
 }
 
 .top-container{
-    background-color: #396a61;
+    background-color: #e4f5f5;
     position: relative;
-    padding-top: 100px;
+    padding: 100px 15px;
 
 }
  .bottom-cloud{
      width: 90px;
     position: absolute;
-   left: 64%;
+   left: 15%;
     bottom: 60%;
     z-index: 0;
 }
 .top-cloud{
     position:absolute;
-    right: 60%;
+    right: 15%;
     top: 5%;
 }
 
