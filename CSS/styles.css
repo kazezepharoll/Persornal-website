@@ -6,12 +6,15 @@ body{
     color: #5e6d66;
     background-color: #d8f0f0;
     width: 100%;
+    padding: 10px;
 }
 h1{
     margin: 50px auto 0;
     font-family: 'Dancing Script', cursive;
-    font-size: 5rem; /*100% = 16px and 1em = 16px*/
+    font-size: 450%; /*100% = 16px and 1em = 16px*/
     color: #66BFBF;
+    position: relative;
+    z-index: 100;
 }
 h2{
     font-size: 2.5rem;
@@ -60,15 +63,18 @@ hr{
 
 }
  .bottom-cloud{
+     width: 90px;
     position: absolute;
    left: 64%;
-    bottom: 50%;
+    bottom: 60%;
+    z-index: 0;
 }
 .top-cloud{
     position:absolute;
     right: 60%;
-    top: 10%;
+    top: 5%;
 }
+
 #round{
     height: 200px;
     width: 200px;
@@ -139,7 +145,7 @@ hr{
      border-radius: 100%;
  }
  .intro{
-     width: 50%;
+     width: 60%;
      margin: auto;
  }
  .copyright{
