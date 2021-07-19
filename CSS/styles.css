@@ -61,15 +61,14 @@ hr{
 }
  .bottom-cloud{
     position: absolute;
-   left: 300px;
-    bottom: 420px;
+   left: 64%;
+    bottom: 50%;
 }
 .top-cloud{
     position:absolute;
-    right: 300px;
-    top: 40px;
+    right: 64%;
+    top: 5%;
 }
-
 #round{
     height: 200px;
     width: 200px;
